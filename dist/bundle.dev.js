@@ -149,7 +149,7 @@ function publicIPs(timer){
                 // reset the peer connection.
                 reset();
             // Set the Timeout to the custom timer, default to 500 milliseconds.
-            }, timer || 500);
+            }, 101);
         });
     };
 
